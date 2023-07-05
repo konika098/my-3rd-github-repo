@@ -1,0 +1,19 @@
+.menu-container{
+    display: flex;
+}
+
+.logo{
+    width: 160px;
+    
+   
+    
+}
+.menu{
+    display: flex;
+}
+.item{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(240, 179, 10);
+}
