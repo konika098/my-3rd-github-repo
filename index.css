@@ -17,3 +17,27 @@
     font-weight: bold;
     color: rgb(240, 179, 10);
 }
+.btn{
+    background-color:rgb(255, 203, 134);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    
+}
+.btn:hover{
+    background-color: blanchedalmond;
+    cursor: pointer;
+    
+}
+.b-img{
+    background-image: url(img/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    
+}
+.text{
+    text-align: justify;
+}
