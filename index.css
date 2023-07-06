@@ -1,24 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*header section start here*/
 .menu-container{
     display: flex;
+    background-color: rgb(138, 135, 135);
+    padding: 20px;
+   justify-content: space-around;
+   align-items: center;
+
 }
 
 .logo{
-    width: 160px;
-    
-   
-    
+    width: 50px;
+    height: 50px;
 }
 .menu{
     display: flex;
+    margin-left:100px ;
 }
 .item{
-    margin-left: 20px;
+    
     font-size: 30px;
-    font-weight: bold;
+    margin-left: 20px;
+    
     color: rgb(240, 179, 10);
 }
+.item:hover{
+    color:rgb(255, 207, 148) ;
+    cursor: pointer;
+}
+/*header section end here */
+/* main section start here*/
+.banner-containner{
+    display: flex;
+   
+    height: 500px;
+    align-items: center;
+    background-image: url(img/banner-1.jpg);
+    background-repeat: no-repeat;
+}
+.banner-text{
+    margin-left: 100px;
+    font-size: 80px;
+}
 .btn{
-    background-color:rgb(255, 203, 134);
+    background-color:rgb(240, 179, 10);
+    
+
     color: rgb(0, 0, 0);
     border: none;
     padding: 10px;
@@ -26,18 +56,15 @@
     
 }
 .btn:hover{
-    background-color: blanchedalmond;
+    background-color: rgb(255, 207, 148);
+    
     cursor: pointer;
     
 }
-.b-img{
-    background-image: url(img/banner-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+
+   
+   
    
     
 }
-.text{
-    text-align: justify;
-}
+
