@@ -32,7 +32,7 @@
     cursor: pointer;
 }
 /*header section end here */
-/* main section start here*/
+/* Banner section start here*/
 .banner-containner{
     display: flex;
    
@@ -66,10 +66,102 @@
     cursor: pointer;
     
 }
-
-   
-   
-   
+/* Banner section end here*/
+/*about section start here*/
+.about-container{
+   display: flex;
+   margin-top: 50px;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row-reverse;
+   padding-top: 10px;
+}
+.about-text{
+    font-size: 40px;
+    align-items: center;
+    margin-left: 150px;
+}
+.a-photo{
+    height: 300px;
     
 }
+.title{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+/*about section end here*/
+/*service section start here*/
+.service-container{
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin-left: 200px;
+    
+    
+}
+
+.icon-p{
+    width: 25px;
+    height: 25px;
+   
+    
+                                                                                                                                 
+}
+.box{
+   width: 230px;
+   height: 300px;
+   box-shadow: 4px 4px 15px rgb(255, 207, 148);
+   font-size: 20px;
+   text-align: center;
+   padding: 30px;
+}
+.box-btn{
+    background-color:rgb(240, 179, 10);
+    color: rgb(0, 0, 0);
+   border: none;
+   padding: 10px;
+   margin-top: 15px;
+   margin-bottom: 8px;
+}
+.box-discription{
+    padding: 18px;
+}
+/*service section end here*/
+/*footer start here*/
+.footer-container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(138, 135, 135);
+
+}
+.foot-h{
+    font-size: 20px;
+    
+}
+.l-foot{
+    list-style: none;
+    padding: 15px;
+    font-size: 17px;
+
+}
+.l-footer{
+    padding-top:15px ;
+    font-size: 15px;
+}
+.e-foot{
+    text-align: center;
+    display: block;
+    
+    background-color:rgb(240, 179, 10) ;
+}
+
+
+
+
+/*footer end here*/
+
+
 
